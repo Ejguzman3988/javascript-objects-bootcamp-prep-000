@@ -10,7 +10,7 @@ function removeFromPlaylist(obj, name){
   if (delete obj.name){
     return obj
   }
-  else(){
+  else{
     return obj
   }
 }

@@ -1,8 +1,8 @@
 var playlist = {'Kanye West': 'Jesus Walks'};
 
 function updatePlaylist(obj, artist, song){
-  Object.assign(obj, {artist: song})
-  return obj
+  return Object.assign(obj, {artist: song})
+  
   
 }
 

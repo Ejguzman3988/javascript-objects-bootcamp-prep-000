@@ -7,10 +7,5 @@ function updatePlaylist(obj, artist, song){
 }
 
 function removeFromPlaylist(obj, name){
-  if (delete obj.name){
-    return obj
-  }
-  else{
-    return obj
-  }
+  
 }
